@@ -4,6 +4,12 @@
 
 This is a VERY BASIC utility for setting backlight brightness and color on System 76 computers. Use at your own risk. I tested this against my 2022 Gazelle.
 
+## Compatibility
+
+This software currently only works for single-zone keyboards. Some System76 models have a multi-zone keyboard with different /sys/ files used change the color. If you run this code and it doesn't work, you probably have a multi-zone keyboard, try this:
+
+https://github.com/kevr/system76-kbd-led
+
 ## Build
 
 I have included the binary as a convenience, but feel free to build it yourself if you don't trust a random guy on the internet. :)
